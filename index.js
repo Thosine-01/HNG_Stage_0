@@ -1,6 +1,10 @@
 const express = require('express');
 const app = express();
 const port = 3000;
+const cors = require('cors');
+
+// Enable CORS for all routes
+app.use(cors());
 
 // Define the data to be returned
 const data = {
