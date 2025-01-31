@@ -14,7 +14,7 @@ const data = {
 };
 
 // Define the API endpoint
-app.get('/api', (req, res) => {
+app.get('/', (req, res) => {
   res.json(data);
 });
 
