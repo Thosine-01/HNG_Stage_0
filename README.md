@@ -1,9 +1,9 @@
 # HNG12 Public API
 
 This is a simple Node.js API that returns the following information in JSON format:
-- Your registered email address (used to register on the HNG12 Slack workspace).
+- My registered email address (used to register on the HNG12 Slack workspace).
 - The current datetime as an ISO 8601 formatted timestamp.
-- The GitHub URL of the project's codebase.
+- My GitHub URL of the project's codebase.
 
 The API is built using **Express.js** and is hosted on **Vercel**.
 
